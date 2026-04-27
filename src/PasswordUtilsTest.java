@@ -105,12 +105,13 @@ public class PasswordUtilsTest {
 
     @Test
 
-    void testPasswordContainsALphaNumericTripleTrue() {
+    void testPasswordContainsAlphaNumericTripleTrue() {
         //arrange
         String password = "hhh";
-        //acte
+        //act
         boolean actual = PasswordUtils.isAlphanumeric(password);
         //assert
         assertEquals(true, actual);
     }
+
 }
